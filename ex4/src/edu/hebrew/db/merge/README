@@ -1,0 +1,29 @@
+# Contents of folder:
+
+## README
+This file
+
+
+## gen.cpp
+
+Source code for the input generator written in C++.  You can compile it with
+g++ or clang++ and probably Visual Studio (though it was not tested)
+
+
+## genText
+
+Pre-compiled binary of the above program for Linux x86-64. It should work
+without problem in the aquarium / river / pond.  You will need to make sure to
+set the executable bit `chmod +x genText` in order to run it.  After which you
+can run it. If no arguments are provided a short help message is displayed.
+Please consult the assignment PDF as for how to run it.
+
+
+
+# MergeInterface.zip
+
+A zip file that contains the files for your external sort project. Both the
+main and interface that should not be changed as well as the implementation
+file that you should fill.
+
+
